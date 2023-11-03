@@ -1,0 +1,66 @@
+@import "./style.scss";
+
+footer{
+    background-color: #333333;
+    padding: 60px 0 90px 0;
+    .container{
+        .row{
+            .footer-logo1{
+                width: 205px;
+                margin-right: 25px;
+            }
+            .footer-logo2{
+                width: 120px;
+            }
+            .footer-address{
+                border-bottom: 1px solid #FFFFFF;
+                padding-bottom: 30px;
+                margin-right: 10px;
+                width: fit-content;
+                h4{
+                    font-size: 15px;
+                    color: #FFFFFF;
+                    font-weight: 400;
+                }
+            }
+            .ph-mail{
+                img{
+                    width: 26px;
+                    margin-right: 15px;
+                }
+                p{
+                    color: #FFFFFF;
+                }
+            }
+            .footer-socmed{
+                ul{
+                    list-style: none;
+                    li{
+                        &:not(:last-child){
+                            margin-right: 25px;
+                        }
+                        img{
+                            width: 26px;
+                            display: block;
+                        }
+                    }
+                }
+            }
+            .footer-nav{
+                h3{
+                    font-size: 20px;
+                    color: #FFFFFF;
+                    margin-bottom: 15px;
+                }
+                ul{
+                    list-style: none;
+                    a{
+                        text-decoration: none;
+                        color: #FFFFFF;
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+    }
+}
