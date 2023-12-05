@@ -122,7 +122,7 @@ class StudentController extends Controller
         } catch (\Throwable $e) {
             Log::channel('errorlog')->info(['module' => 'Order', 'message' => $e->getMessage(), 'query' => '']);
             DB::rollback();
-            return json_encode(['status' => false, 'message' => ['Gagal Tambah Mahasiswa']]);
+            return json_encode(['status' => false, 'message' => ['Gagal Tambah Mahasiswa, Perhatikan Email atau Data Lainnya']]);
         }
 
         return json_encode(['status' => true, 'message' => "Success"]);

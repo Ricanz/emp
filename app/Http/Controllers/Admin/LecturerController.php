@@ -91,7 +91,7 @@ class LecturerController extends Controller
             return false;
         }
 
-        return json_encode(['status'=> true, 'message'=> "Success"]);
+        return json_encode(['status'=> true, 'message'=> ["Success"]]);
     }
 
     public function edit($id , $page){

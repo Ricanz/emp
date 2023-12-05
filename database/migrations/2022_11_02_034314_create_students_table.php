@@ -18,6 +18,7 @@ class CreateStudentsTable extends Migration
             $table->string('nim', 10)->unique();
             $table->string('name', 50);
             $table->string('email', 50);
+            $table->string('image', 255);
             $table->bigInteger('user_id');
             $table->bigInteger('major_id');
             $table->bigInteger('mitra_id');
@@ -27,7 +28,7 @@ class CreateStudentsTable extends Migration
             $table->timestamp('end_date')->nullable();
             $table->string('year', 4)->nullable();
             $table->string('phone', 15)->nullable();
-            $table->string('status', 10)->nullable();
+            $table->string('status', 10)->default('active');
             $table->enum('gender', ['boy', 'girl']);
             $table->boolean('is_alumni')->default(false);
             $table->longText('history')->nullable();
