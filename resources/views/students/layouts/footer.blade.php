@@ -3,7 +3,7 @@
         <div class="row flex-wrap justify-between">
             <div class="col-lg-6 col-sm-12">
                 <div class="row align-center mbottom-30">
-                    <img class="footer-logo1" src="{{ asset('/guestAssets/img/logo-up-white.png') }}" alt="">
+                    <img class="footer-logo1" src="{{ asset('/guestAssets/img/logo-mknows.webp') }}" alt="">
                     <img class="footer-logo2" src="{{ asset('/guestAssets/img/logo-merdeka.png') }}" alt="">
                 </div>
                 <div class="row mbottom-30">

@@ -4,7 +4,7 @@
 
 <body>
     <div class="container-fluid login">
-        <img class="logo-up" src="{{ asset('/guestAssets/img/logo-up-transparent.png') }}" alt="">
+        <img class="logo-up" src="{{ asset('/guestAssets/img/logo-mknows.webp') }}" alt="">
         <div class="flex-center-between">
             <div class="logo-text col-lg-6 text-center mobile-none">
                 <b class="fp-white fs-38 fw-800">M-Knows Consulting</b> <br>
@@ -43,11 +43,11 @@
                             Registrasi Alumni</h5>
                     </div>
                     <div class="role-login bg-primary-black d-flex flex-column p-20 mobile-none">
-                        <button class="btn-rounded transparent border-secondary-darkgrey fs-12 fw-400 mbottom-15"
+                        <button class="btn-rounded transparent border-secondary-light fs-12 fw-400 mbottom-15"
                             onclick="login_title('Alumni')">Masuk sebagai Alumni</button>
-                        <button class="btn-rounded transparent border-secondary-darkgrey fs-12 fw-400 mbottom-15"
+                        <button class="btn-rounded transparent border-secondary-light fs-12 fw-400 mbottom-15"
                             onclick="login_title('Dosen')">Masuk sebagai Dosen</button>
-                        <button class="btn-rounded transparent border-secondary-darkgrey fs-12 fw-400"
+                        <button class="btn-rounded transparent border-secondary-light fs-12 fw-400"
                             onclick="login_title('Mitra')">Masuk sebagai Mitra</button>
                     </div>
                 </div>

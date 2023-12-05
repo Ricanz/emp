@@ -3,7 +3,7 @@
         <div class="top-section">
             <div class="container">
                 <a class="navbar-brand" href="/">
-                    <img class="logo" src="{{ asset('/guestAssets/img/logo-fh.svg') }}" alt="">
+                    <img class="logo" src="{{ asset('/guestAssets/img/mknows.png') }}" alt="">
                     <span class="fw-700 mobile-none">M-Knows Consulting</span>
                 </a>
                 <div class="profile-nav dropdown mobile-none">

@@ -59,7 +59,7 @@
           <div class="col-lg-5 text-center mx-auto">
             <h3 class="text-white mb-2 mt-5">M-Knows Consulting</h3>
             <p class="text-lead text-white">
-              Aplikasi Pengembangan Karir Mahasiswa Fakultas Hukum</p>
+              Aplikasi Pengembangan Karir Mahasiswa Kampus Gratis</p>
           </div>
         </div>
       </div>
